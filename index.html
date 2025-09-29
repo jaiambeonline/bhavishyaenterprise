@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavishya Enterprise - Crane Hire Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9e6f2);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #004080, #0066cc);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.4s ease, text-shadow 0.4s ease;
+    }
+    header:hover {
+      transform: scale(1.05) rotateX(5deg);
+      text-shadow: 0px 4px 12px rgba(255, 255, 255, 0.8);
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+      transition: transform 0.5s ease;
+    }
+    header img:hover {
+      transform: rotateY(360deg);
+    }
+    nav {
+      background: #0066cc;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s, color 0.3s;
+      display: inline-block;
+    }
+    nav a:hover {
+      color: #ffcc00;
+      transform: scale(1.2) rotateZ(-5deg);
+    }
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section {
+      background: #fff;
+      padding: 30px;
+      margin: 30px 0;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      transform: perspective(1000px) rotateX(0deg);
+      transition: transform 0.4s ease-in-out, box-shadow 0.4s ease;
+    }
+    .section:hover {
+      transform: perspective(1000px) rotateX(6deg) scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    }
+    h2 {
+      color: #004080;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(145deg, #ff6600, #ff3300);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+      transform: translateY(-5px) scale(1.1);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+    footer {
+      background: linear-gradient(to right, #004080, #0066cc);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      transition: transform 0.4s ease, letter-spacing 0.4s ease;
+    }
+    footer:hover {
+      transform: scale(1.05);
+      letter-spacing: 2px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    form input:focus, form textarea:focus {
+      transform: scale(1.02);
+      box-shadow: 0 0 8px rgba(0,102,204,0.5);
+      outline: none;
+    }
+    form button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    form button:hover {
+      transform: translateY(-4px) scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .testimonial-card {
+      background:#f9f9f9;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      transform:perspective(800px) rotateY(0deg);
+      transition:transform 0.4s;
+    }
+    .testimonial-card:hover {
+      transform:perspective(800px) rotateY(5deg) scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Bhavishya Enterprise Logo">
+    <h1>Bhavishya Enterprise</h1>
+    <p>Crane Hire & Loading/Unloading Services</p>
+    <a href="tel:+919000000000" class="btn">📞 Call Now</a>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Crane hire for construction and industrial projects</li>
+        <li>Loading and unloading heavy machinery</li>
+        <li>Material lifting and shifting solutions</li>
+        <li>On-site assistance with experienced operators</li>
+      </ul>
+    </section>
+
+    <section id="testimonials" class="section">
+      <h2>What Our Clients Say</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
+        <div class="testimonial-card">
+          <p>“Bhavishya Enterprise provided excellent crane services for our construction site. Reliable and safe!”</p>
+          <strong>- Rajesh P., Contractor</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>“Their team handled heavy machinery unloading perfectly. Highly recommend.”</p>
+          <strong>- Meera S., Factory Manager</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>“Professional operators and timely service. Will hire again!”</p>
+          <strong>- Ankit G., Business Owner</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>
+        Bhavishya Enterprise provides reliable crane hire services in Valsad, Gujarat. We specialize in loading, unloading, and lifting heavy equipment for construction, industrial, and commercial needs. With a focus on safety and efficiency, our team ensures smooth operations for your projects.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> Shop 5, T M Park, Mukund, Parnera, Valsad - 396020, Gujarat</p>
+      <p><strong>Email:</strong> <a href="mailto:bhavishyaenterprisevalsad@gmail.com">bhavishyaenterprisevalsad@gmail.com</a></p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.0269023886586!2d72.9195!3d20.6109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0d5cf11f7c9cd%3A0x0!2sValsad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1696000000000"></iframe>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bhavishya Enterprise. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
